@@ -1,5 +1,12 @@
-def discr(x1, x2, x3):
-    result = (x2 ** 2) - 4 * x1 * x3
-    print(result)
+import math
+def discr(a, b, c):
+    D = (b ** 2) - 4 * a * c
+    print(D)
+    if D > 0:
+        x_1 = (-b + math.sqrt(D)) / 2 * a
+        x_2 = (-b - math.sqrt(D)) / 2 * a
+        print(x_1, x_2)
+    else:
+        print("Корней нету")
 
-discr(3 , 4, 2)
+discr(3 , 10, 3)

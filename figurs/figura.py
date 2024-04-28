@@ -32,3 +32,4 @@ kvadrat(2)
 pryamaugolnik(2, 4)
 krug(3)
 trapecia(9, 5,  8, 6)
+
