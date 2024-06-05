@@ -11,6 +11,7 @@ f = list(e)
 print(f)
 g = tuple(f)
 print(g)
+print(g)
 h = str(g)+"e"
 print(h)
 i = set(h)
