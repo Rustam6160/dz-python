@@ -25,3 +25,5 @@ print(k)
 l1 = "bhfg"
 l = bool(l1)
 print(l)
+p = "Hello world"
+print(p)
